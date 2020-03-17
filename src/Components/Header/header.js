@@ -5,7 +5,7 @@ const Header = () => {
     const location = useLocation();
 
     return (
-        <nav className="navbar navbar-expand-lg navbar-light bg-light p-0">
+        <nav className="navbar navbar-expand-lg navbar-light bg-light p-0 border-bottom border-info">
             <div className="container p-0">
                 <Link to="/" className="navbar-brand p-3 bg-info text-light">Kelsie Langston</Link>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
