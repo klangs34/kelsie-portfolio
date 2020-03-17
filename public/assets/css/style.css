@@ -1,0 +1,180 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    background-image: url('/assets/images/cork-board.png');
+}
+h1,
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 20px;
+}
+
+h1{
+    background-color: #4aaaa5;
+    color: #ffffff;
+    float: left;
+}
+
+h2{
+    border-bottom: 2px solid #cccccc;
+    padding-left: 0;
+    color: #4aaaa5;
+}
+
+.container{
+    min-height: calc(100vh - 50px);
+}
+
+.container, 
+.nav_container{
+    width: 960px;
+    margin: 0 auto;
+    
+}
+
+.main{
+    background-color: #ffffff;
+    position: relative
+}
+
+.nav{
+    background-color: #ffffff;
+    border-bottom: 1px solid #cccccc;
+    margin-bottom: 20px;
+}
+
+footer{
+    box-sizing: border-box;
+    width: 100%;
+    padding-top: 20px;
+    background-color: #666666;
+    text-align: center;
+    border-top: 8px solid #4aaaa5;
+    color: #ffffff;
+    height: 50px;
+}
+
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  clear: both;
+  *zoom: 1;
+}
+
+.nav_group{
+    float: right;
+    padding: 20px;
+}
+
+.about,
+.portfolio,
+.contact {
+    float: left;
+    margin-left: 20px;
+}
+
+.about,
+.portfolio {
+    border-right: 1px solid #cccccc;
+    padding-right: 12px;
+}
+
+.main{
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+img{
+    max-width: 125px;
+    max-height: 125px;
+    margin-right: 20px;
+    overflow: hidden;
+    float: left;
+}
+
+a{
+  text-decoration: none;  
+  color: inherit;
+}
+
+#name,
+#email,
+#message {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding-left: 5px;
+}
+
+form{
+    margin: 20px 0;
+}
+
+label{
+    line-height: 1.5;
+}
+
+.button{
+    background-color: #4aaaa5;
+    padding: 5px 10px;
+    width: 60px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.box_group{
+    margin: 0;
+}
+
+.box{
+    margin: 20px;
+}
+
+.box img{
+    width: 200px;
+    height: 200px;
+    max-width: 200px;
+    max-height: 200px;
+    border: 1px solid #cccccc;
+}
+
+.box1,
+.box2,
+.box3,
+.box4,
+.box5
+{
+    float: left;
+    position: relative;
+}
+
+.box1,
+.box3,
+.box5 {
+    margin-left: 0;
+}
+
+.strip{
+    box-sizing: border-box;
+    position: absolute;
+    top: 140px;
+    background-color: #4aaaa5;
+    width: 201px;
+    height: 50px;
+    padding: 20px, 100px;
+    text-align: center;
+    color: #ffffff;
+    padding: 18px 0;
+}
+
+.push {
+    height: 50px;
+}
