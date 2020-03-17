@@ -1,7 +1,9 @@
 import React from 'react';
-import { Link } from 'react-router-dom'
+import { Link, useLocation } from 'react-router-dom'
 
 const Header = () => {
+    const location = useLocation();
+
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-light p-0">
             <div className="container p-0">
@@ -13,14 +15,14 @@ const Header = () => {
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <div className="form-inline ml-auto">
                         <ul className="navbar-nav">
-                            <li className="nav-item active">
-                                <Link to="/" className="nav-link">About |<span className="sr-only">(current)</span></Link>
+                            <li className="nav-item">
+                                <Link to="/" className={location.pathname === '/' ? 'nav-link active' : 'nav-link'} >About |<span className="sr-only">(current)</span></Link>
                             </li>
                             <li className="nav-item">
-                                <Link to="/portfolio" className="nav-link">Portfolio |</Link>
+                                <Link to="/portfolio" className={location.pathname === '/portfolio' ? 'nav-link active' : 'nav-link'}>Portfolio |</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" to='/contact'>Contact</Link>
+                                <Link className={location.pathname === '/contact' ? 'nav-link active' : 'nav-link'} to='/contact'>Contact</Link>
                             </li>
                         </ul>
                     </div>
