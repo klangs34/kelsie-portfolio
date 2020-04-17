@@ -54,6 +54,14 @@ const Portfolio = () => {
                             </div>
                         </a>
                     </div>
+                    <div className="box box1">
+                        <a href="https://polar-eyrie-76278.herokuapp.com/">
+                            <img src="/assets/images/EmployeeDirectoryDemo.gif" alt="employee directory" />
+                            <div className="strip">
+                                Employee Directory
+                            </div>
+                        </a>
+                    </div>
                 </div>
             </section>
         </main>
