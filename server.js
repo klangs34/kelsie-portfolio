@@ -7,6 +7,8 @@ const cors = require('cors');
 // Setting up port
 var PORT = process.env.PORT || 8080;
 
+const apiRoutes = require("./routes");
+
 //connnect to mongoDB
 mongoose.connect(
     process.env.MONGODB_URI || "mongodb://localhost/contact-me", //needs to have the same name in seed
@@ -23,11 +25,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
 //api route
-app.post('/api/contact-me', (req, res) => {
-    db.create(req.body)
-        .then(response => res.json(response))
-        .catch(error => console.log(error))
-})
+app.use("/api", apiRoutes);
 
 // Send every other request to the React app
 // Define any API routes before this runs
