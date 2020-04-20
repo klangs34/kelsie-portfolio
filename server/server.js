@@ -3,7 +3,7 @@ const express = require("express");
 const mongoose = require("mongoose");
 const path = require("path");
 const db = require('./models');
-
+const cors = require('cors');
 // Setting up port
 var PORT = process.env.PORT || 8080;
 
@@ -18,6 +18,7 @@ mongoose.connect(
 
 // Creating express app and configuring middleware 
 var app = express();
+app.use(cors());
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
