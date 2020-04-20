@@ -46,9 +46,9 @@ const Contact = () => {
                 //display the css animation
                 setToastClass("success");
                 //reload window
-                setTimeout(()=> {
-                    window.location.reload()
-                }, 1000)
+                setName("");
+                setEmail("");
+                setMessage("");
             });
         } else {
             setError('***Some fields are missing or invalid***');
