@@ -47,6 +47,14 @@ const Portfolio = () => {
                         </a>
                     </div>
                     <div className="box box1">
+                        <a href="https://guarded-sands-01783.herokuapp.com/">
+                            <img src="/assets/images/burgerIndulgence.png" alt="buger indulgence" />
+                            <div className="strip">
+                                Burger Indulgence!
+                            </div>
+                        </a>
+                    </div>
+                    <div className="box box1">
                         <a href="https://shrouded-cliffs-15806.herokuapp.com/members">
                             <img src="/assets/images/Capture.PNG" alt="rock climbing" />
                             <div className="strip">
