@@ -12,7 +12,7 @@ const About = () => {
           <div className="card-body p-0">
             <img
               className="img-fluid"
-              src="/assets/images/latest-LinkedIn.jpg"
+              src="/assets/images/latest-LinkedIn_25.jpg"
               alt="me"
             />
           </div>
