@@ -32,7 +32,7 @@ const Portfolio = () => {
                     </div>
                     <div className="box box1">
                         <a href="https://github.com/klangs34/employee-summary">
-                            <img src="/assets/images/employee-summary.png" alt="developer pdf" />
+                            <img src="/assets/images/employeeSummary.gif" alt="developer pdf" />
                             <div className="strip">
                                 Employee Summary
                             </div>
