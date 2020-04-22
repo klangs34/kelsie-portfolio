@@ -1,5 +1,4 @@
 import React from 'react';
-import reactLogo from '../../logo.svg'
 
 const Technologies = () => {
     return (
