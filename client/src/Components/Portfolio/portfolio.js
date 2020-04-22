@@ -16,7 +16,7 @@ const Portfolio = () => {
                     </div>
                     <div className="box box1">
                         <a href="https://klangs34.github.io/weather-dashboard">
-                            <img src="/assets/images/WeatherDashboard.png" alt="weather dashboard" />
+                            <img src="/assets/images/WeatherDashboard.gif" alt="weather dashboard" />
                             <div className="strip">
                                 Weather Dashboard
                             </div>
