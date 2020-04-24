@@ -13,6 +13,9 @@ const Portfolio = () => {
                                 Day Planner
                             </div>
                         </a>
+                    <div className="mt-2 text-center">
+                        <a href="https://github.com/klangs34/Day-Planner/blob/master/README.md">ReadMe</a>
+                    </div>
                     </div>
                     <div className="box box1">
                         <a href="https://klangs34.github.io/weather-dashboard">
@@ -21,6 +24,9 @@ const Portfolio = () => {
                                 Weather Dashboard
                             </div>
                         </a>
+                    <div className="mt-2 text-center">
+                        <a href="https://github.com/klangs34/weather-dashboard/blob/master/README.md">ReadMe</a>
+                    </div>
                     </div>
                     <div className="box box1">
                         <a href="https://klangs34.github.io/musicPlus/">
@@ -29,6 +35,9 @@ const Portfolio = () => {
                                 Music Plus
                             </div>
                         </a>
+                    <div className="mt-2 text-center">
+                        <a href="https://github.com/wilpar4813/musicPlus/blob/master/README.md">ReadMe</a>
+                    </div>
                     </div>
                     <div className="box box1">
                         <a href="https://github.com/klangs34/employee-summary">
@@ -37,6 +46,9 @@ const Portfolio = () => {
                                 Employee Summary
                             </div>
                         </a>
+                    <div className="mt-2 text-center">
+                        <a href="https://github.com/klangs34/employee-summary/blob/master/README.md">ReadMe</a>
+                    </div>
                     </div>
                     <div className="box box1">
                         <a href="https://secure-oasis-24291.herokuapp.com/">
@@ -45,6 +57,9 @@ const Portfolio = () => {
                                 Note Taker
                             </div>
                         </a>
+                    <div className="mt-2 text-center">
+                        <a href="https://github.com/klangs34/note-taker/blob/master/README.md">ReadMe</a>
+                    </div>
                     </div>
                     <div className="box box1">
                         <a href="https://guarded-sands-01783.herokuapp.com/">
@@ -53,6 +68,9 @@ const Portfolio = () => {
                                 Burger Indulgence!
                             </div>
                         </a>
+                    <div className="mt-2 text-center">
+                        <a href="https://github.com/klangs34/burger/blob/master/README.md">ReadMe</a>
+                    </div>
                     </div>
                     <div className="box box1">
                         <a href="https://shrouded-cliffs-15806.herokuapp.com/members">
@@ -61,6 +79,9 @@ const Portfolio = () => {
                                 NC Rock Climbing!
                             </div>
                         </a>
+                    <div className="mt-2 text-center">
+                        <a href="https://github.com/klangs34/Project-2/blob/master/README.md">ReadMe</a>
+                    </div>
                     </div>
                     <div className="box box1">
                         <a href="https://polar-eyrie-76278.herokuapp.com/">
@@ -69,6 +90,9 @@ const Portfolio = () => {
                                 Employee Directory
                             </div>
                         </a>
+                    <div className="mt-2 text-center">
+                        <a href="https://github.com/klangs34/employee-directory/blob/master/README.md">ReadMe</a>
+                    </div>
                     </div>
                 </div>
             </section>
