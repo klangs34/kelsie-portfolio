@@ -19,27 +19,26 @@ const About = () => {
         </div>
         <div className="text-muted">
           <p>
-            Hello World! This project begins a new and exciting journey for me
-            in the world of programming! I've done a few projects in the past,
-            but none like this one as I look to establish a foundation in which
-            I can build upon.
+            Hello World! This project formalizes a journey that started for me from
+            what feels like an eternity ago! I've spent hundreds of hours honing my craft, learning 
+            new skills and building fun projects.  This project is unlike any other that I've created
+            because it serves as the foundation that will house some of my most accomplished projects.
           </p>
           <p>
-            I began learning to code in the early 2000s when I was in undergrad
-            at Elon University (Go Phoenix!!). For you old-schoolers, this was
-            when Visual Basics and C+ ran the programming world. I built a few
-            static sites with a little backend access, but years later began
-            incorporating dynamic pages with PHP. For several years PHP, HTML,
-            CSS, and MySQL were the suite of choice.
+            I began coding as an undergrad at Elon University (Go Phoenix!!). I built a few
+            static sites with a little backend access, but gradually began
+            incorporating dynamic pages with PHP. For a while PHP, HTML,
+            CSS, and MySQL were my suite of choice.
           </p>
           <p>
-            Fast forward to present, I am all about Javascript!!! My last
-            project was done using REACT, which was satisfying on so many
-            levels.
+            Fast forward to present, I am all about Javascript!!! This project 
+            was done using REACT, which was satisfying on so many
+            levels.  My skills range from HTML5, Bootsrap, React, Nodejs, Express and much more.  
+            Applying those skills have allowed me to build fully functional and practical apps.
           </p>
           <p>
             When I am not coding, I enjoy spending time with my family, doing
-            some occassional fishing, and watching football.
+            some occassional building projects, and watching football.
           </p>
           <p>Check out my page and feel free to drop me a line or two!</p>
         </div>

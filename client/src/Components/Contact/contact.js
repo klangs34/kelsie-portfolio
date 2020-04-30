@@ -106,6 +106,7 @@ const Contact = () => {
             <h2 className="text-info h3 py-3 mb-3 border-bottom">Contact</h2>
             <div className="d-flex justify-content-between">
                 <p>LinkedIn: <small className="text-muted"><a href="https://www.linkedin.com/in/kelsie-langston-50433741/">linkedin.com/in/kelsie-langston-50433741/</a></small></p>
+                <p>Email: <small className="text-muted">Klangs34@gmail.com</small></p>
                 <p>GitHub: <small className="text-muted"><a href="https://github.com/klangs34">github.com/klangs34</a></small></p>
             </div>
             <section className="contact_us">
