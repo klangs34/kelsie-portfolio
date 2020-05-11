@@ -13,7 +13,7 @@ const Portfolio = () => {
                                     coupled with the use of tracking time.  This is a fun app that allows users to planner
                                     their day accordingly" 
                             className="box box1">
-                            <a href="https://klangs34.github.io/Day-Planner">
+                            <a href="https://workday-planner.herokuapp.com/">
                                 <img src="/assets/images/DayPlanner.gif" alt="day planner" />
                                 <div className="strip">
                                     Day Planner
