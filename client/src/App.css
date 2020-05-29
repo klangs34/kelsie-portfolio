@@ -1,5 +1,21 @@
-main{
+body {
+  height: 100%;
+  background-image: url("/assets/images/greygradientbackground.jpg");
+}
+
+.p-image {
+  min-width: 480px;
+  max-width: 480px;
+}
+/* main {
   min-height: calc(100vh - 24px);
+  background-image: url("/assets/images/subtle-gray-gradient-light-white-gradient.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+} */
+
+small > a {
+  color: white;
 }
 
 .group:before,
@@ -15,15 +31,15 @@ main{
   *zoom: 1;
 }
 
-.box_group{
+.box_group {
   margin: 0;
 }
 
-.box{
+.box {
   margin: 20px;
 }
 
-.box img{
+.box img {
   width: 200px;
   height: 200px;
   max-width: 200px;
@@ -31,14 +47,13 @@ main{
   border: 1px solid #cccccc;
 }
 
-.box1
-{
+.box1 {
   float: left;
   position: relative;
   margin-left: 0;
 }
 
-.strip{
+.strip {
   box-sizing: border-box;
   position: absolute;
   top: 140px;

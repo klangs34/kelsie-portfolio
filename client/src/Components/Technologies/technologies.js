@@ -2,9 +2,9 @@ import React from 'react';
 
 const Technologies = () => {
     return (
-        <main className="container my-3 bg-light">
-            <div className="text-info h3 py-3 mb-3 border-bottom">Technologies</div>
-            <section className="d-flex">
+        <>
+            <div className="text-dark h3 py-3 mb-3 border-bottom border-muted">Technologies</div>
+            <section id="Technologies" className="d-flex">
                 <div className="row mx-auto">
                     <div className="box box1">
                         <img src="/assets/images/nodejs.png" alt="node" /> 
@@ -38,7 +38,7 @@ const Technologies = () => {
                     </div>
                 </div>
             </section>
-        </main>
+        </>
     )
 }
 
