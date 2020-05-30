@@ -19,21 +19,20 @@ const About = () => {
         </div>
         <div className="text-muted">
           <p>
-            Hello World! This project formalizes a journey that started for me from
-            what feels like an eternity ago! I've spent hundreds of hours honing my craft, learning 
-            new skills and building fun projects.  This project is unlike any other that I've created
-            because it serves as the foundation that will house some of my most accomplished projects.
+            This project formalizes a journey that started for me long ago. I've logged many hours honing my craft, learning 
+            new skills and building fun projects.  This project is intented to pull everything together and
+            serve as the foundation that will house some of my most comprehensive projects.
           </p>
           <p>
-            I began coding as an undergrad at Elon University (Go Phoenix!!). I built a few
+            I began coding as an undergrad at Elon University. I've built a few
             static sites with a little backend access, but gradually began
             incorporating dynamic pages with PHP. For a while PHP, HTML,
             CSS, and MySQL were my suite of choice.
           </p>
           <p>
-            Fast forward to present, I am all about Javascript!!! This project 
+            Fast forward to present, I am very much into Javascript. This project 
             was done using REACT, which was satisfying on so many
-            levels.  My skills range from HTML5, Bootsrap, React, Nodejs, Express and much more.  
+            levels because of its component-based approach.  My skills range from HTML5, Bootsrap, React, Nodejs, Express and much more.  
             Applying those skills have allowed me to build fully functional and practical apps.
           </p>
           <p>
